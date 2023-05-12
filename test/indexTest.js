@@ -6,7 +6,7 @@ const helloDev = index.helloWorld();
 const sum = index.sum(4,6);
 //Puede tener mas de un test 
 describe('index tests', function(){
-    it('Hello world text is as expected', function(){
+    it('Hola devOps text is as expected', function(){
         assert.equal(helloDev, 'Hola devOps');
     });
 
